@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Memex 2.0: Tools for scholars. Zotero and Obsidian plugins, Book Helper, and ScanTailor Spectre, with installation guides, downloads, and source.">
+  <meta name="color-scheme" content="light dark">
+  <title>Memex 2.0 — Tools for scholars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#zotero">Skip to tools</a>
+<main>
+  <header>
+    <h1>Memex 2.0</h1>
+    <p class="subtitle">Tools for scholars</p>
+    <p>Plugins for Zotero and Obsidian, and Mac applications for preparing books and scans. Each tool installs separately.</p>
+    <nav aria-label="Tools by application"><a href="#zotero">Zotero</a><a href="#obsidian">Obsidian</a><a href="#scanning">Scanning</a></nav>
+  </header>
+  <section id="zotero" aria-labelledby="zotero-title">
+    <h2 id="zotero-title">Zotero</h2>
+    <p>The Zotero plugins listed here target Zotero 9.x and 10.0.x on macOS. Book Helper is a separate Mac application.</p>
+    <p>New to Zotero plugins? <a href="https://kvarnelis.github.io/zotero-tools/#installation">Read the installation guide</a> for how to install a plugin’s <code>.xpi</code> file inside Zotero. Each tool’s link below includes its download and setup steps.</p>
+    <article aria-labelledby="praetor-title">
+      <h3 id="praetor-title">Praetor</h3>
+      <p>Use Codex or Claude Code in Zotero to ask about items, search attachment text, draft notes, and review proposed library changes.</p>
+      <p class="requirements">Requires Codex CLI or Claude Code, installed and signed in as a separate command-line program.</p>
+      <p class="links"><a href="https://kvarnelis.github.io/zotero-tools/#praetor-title">Download and installation</a><a href="https://github.com/kvarnelis/zotero-praetor">Source code</a></p>
+    </article>
+    <article aria-labelledby="notebook-title">
+      <h3 id="notebook-title">NotebookLM Pane</h3>
+      <p>Open Google NotebookLM in Zotero’s item pane and prepare local PDFs for its upload dialog.</p>
+      <p class="requirements">Requires internet access and Google sign-in inside the pane. Finish PDF uploads manually in NotebookLM.</p>
+      <p class="links"><a href="https://kvarnelis.github.io/zotero-tools/#notebook-title">Download and installation</a><a href="https://github.com/kvarnelis/zotero-notebooklm-pane">Source code</a></p>
+    </article>
+    <article aria-labelledby="reader-title">
+      <h3 id="reader-title">Page View</h3>
+      <p>Add single-page reading, two-page spreads, page fitting, and focus mode to Zotero’s PDF reader.</p>
+      <p class="links"><a href="https://kvarnelis.github.io/zotero-tools/#reader-title">Download and installation</a><a href="https://github.com/kvarnelis/zotero-page-view">Source code</a></p>
+    </article>
+    <article aria-labelledby="pane-title">
+      <h3 id="pane-title">Compact Pane</h3>
+      <p>Show a reduced set of metadata fields by item type, expand the full list when needed, and copy attachment paths from the item menu.</p>
+      <p class="links"><a href="https://kvarnelis.github.io/zotero-tools/#pane-title">Download and installation</a><a href="https://github.com/kvarnelis/zotero-compact-pane">Source code</a></p>
+    </article>
+    <article aria-labelledby="theme-title">
+      <h3 id="theme-title">Quiet Theme</h3>
+      <p>Apply a compact interface stylesheet and switch Zotero’s native light or dark appearance.</p>
+      <p class="requirements">Restart Zotero after enabling or disabling the interface overlay.</p>
+      <p class="links"><a href="https://kvarnelis.github.io/zotero-tools/#theme-title">Download and installation</a><a href="https://github.com/kvarnelis/zotero-quiet-theme">Source code</a></p>
+    </article>
+    <article aria-labelledby="book-title">
+      <h3 id="book-title">Book Helper</h3>
+      <p>Identify and rename PDF and DRM-free EPUB books, review their metadata, and optionally import them into Zotero.</p>
+      <p class="requirements">A Mac application for macOS 13 or later on Apple silicon. Keep Zotero open for optional import.</p>
+      <p class="links"><a href="https://kvarnelis.github.io/zotero-tools/#book-title">Download and installation</a><a href="https://github.com/kvarnelis/book-helper">Source code</a></p>
+    </article>
+  </section>
+  <section id="obsidian" aria-labelledby="obsidian-title">
+    <h2 id="obsidian-title">Obsidian</h2>
+    <p><a href="https://kvarnelis.github.io/obsidian-tools/#installation">Read the installation guide</a> for enabling community plugins and installing release files. Each tool’s link below includes its download and setup steps.</p>
+    <article aria-labelledby="pocket-title">
+      <h3 id="pocket-title">Pocket Codex</h3>
+      <p>Use Claude Code, Codex, or Grok in an Obsidian sidebar, with conversations, file context, edits, and provider tools.</p>
+      <p class="requirements">Requires Obsidian 1.7.2 or later and an installed, signed-in command-line program for the chosen provider. Manual installation uses four release files. Optional iPhone and iPad remote access requires a Mac host and Tailscale on both devices.</p>
+      <p class="requirements">Built on Claudian and maintained independently.</p>
+      <p class="links"><a href="https://kvarnelis.github.io/obsidian-tools/#pocket-title">Download and installation</a><a href="https://github.com/kvarnelis/pocket-codex">Source code</a></p>
+    </article>
+    <article aria-labelledby="composition-title">
+      <h3 id="composition-title">Composition Mode</h3>
+      <p>Write in a paper-style editor with page sizes, margins, type controls, zoom, and page breaks.</p>
+      <p class="requirements">Requires Obsidian 1.5.0 or later on desktop. Available through Obsidian’s community plugin directory.</p>
+      <p class="links"><a href="https://kvarnelis.github.io/obsidian-tools/#composition-title">Download and installation</a><a href="https://github.com/kvarnelis/composition-mode">Source code</a></p>
+    </article>
+    <article aria-labelledby="paragraph-title">
+      <h3 id="paragraph-title">Paragraph Numbers</h3>
+      <p>Show paragraph numbers in the editor gutter for referring to passages in long-form prose.</p>
+      <p class="requirements">Requires Obsidian 1.0.0 or later; its manifest supports desktop and mobile. Turn off Obsidian’s built-in line numbers.</p>
+      <p class="links"><a href="https://kvarnelis.github.io/obsidian-tools/#paragraph-title">Download and installation</a><a href="https://github.com/kvarnelis/obsidian-paragraph-numbers">Source code</a></p>
+    </article>
+  </section>
+  <section id="scanning" aria-labelledby="scanning-title">
+    <h2 id="scanning-title">Scanning</h2>
+    <article aria-labelledby="scantailor-title">
+      <h3 id="scantailor-title">ScanTailor Spectre</h3>
+      <p>Clean scanned pages and export searchable PDFs, with a Zotero plugin that sends a PDF to ScanTailor and returns the cleaned PDF as a new attachment to the same item.</p>
+      <p class="requirements">The Mac application requires macOS 15 or later on Apple silicon. Zotero integration requires both the app and the separate Spectre Loop 0.1.3 plugin for Zotero 9.x or 10.0.x; the app’s bundled plugin is an older version.</p>
+      <p class="links"><a href="https://kvarnelis.github.io/zotero-tools/#scantailor-title">Downloads and installation</a><a href="https://github.com/abandoned-industries/scantailor-spectre">Source code</a></p>
+    </article>
+  </section>
+</main>
+<footer><a href="https://kvarnelis.github.io/zotero-tools/">Zotero Tools</a> · <a href="https://kvarnelis.github.io/obsidian-tools/">Obsidian Tools</a> · <a href="https://github.com/kvarnelis/memex-2">Page source</a></footer>
+</body>
+</html>
